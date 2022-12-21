@@ -95,7 +95,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
@@ -113,17 +113,14 @@
             }
           }
         },
-        "block_order": [
-          "announcement-bar-0"
-        ],
-        "settings": {
-        }
+        "block_order": ["announcement-bar-0"],
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo": "shopify://shop_images/logo.png",
           "logo_width": 100,
           "logo_position": "top-left",
           "menu": "navigation-bar",
@@ -157,22 +154,18 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
             }
           }
         },
-        "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
-        ],
+        "block_order": ["footer-0", "footer-1", "footer-2"],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
-          "enable_language_selector": false,
+          "enable_language_selector": true,
           "payment_enable": true,
           "margin_top": 48,
           "padding_top": 36,
@@ -194,15 +187,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "14288002729265275678": {
-        "type": "shopify:\/\/apps\/go-product-page-gallery-zoom\/blocks\/app-embed\/00e2bd89-9dbb-4f36-8a7f-03768835bc78",
+        "type": "shopify://apps/go-product-page-gallery-zoom/blocks/app-embed/00e2bd89-9dbb-4f36-8a7f-03768835bc78",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -343,11 +333,8 @@
               }
             }
           },
-          "block_order": [
-            "announcement-bar-0"
-          ],
-          "settings": {
-          }
+          "block_order": ["announcement-bar-0"],
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -387,15 +374,11 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
-          "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2"
-          ],
+          "block_order": ["footer-0", "footer-1", "footer-2"],
           "settings": {
             "color_scheme": "background-1",
             "newsletter_enable": true,
