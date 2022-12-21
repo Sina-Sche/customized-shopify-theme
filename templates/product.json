@@ -5,13 +5,11 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -22,8 +20,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -40,7 +37,55 @@
         "buy_buttons"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
+        "media_position": "left",
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "main-customized": {
+      "type": "main-product-customized",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "description",
+        "caption",
+        "price",
+        "buy_buttons"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
         "media_position": "left",
         "gallery_layout": "stacked",
         "media_size": "large",
@@ -58,7 +103,7 @@
           "type": "column",
           "settings": {
             "title": "100% Qualität",
-            "text": "<p>Dank weichem Silikon<\/p>",
+            "text": "<p>Dank weichem Silikon</p>",
             "link_label": "",
             "link": ""
           }
@@ -67,7 +112,7 @@
           "type": "column",
           "settings": {
             "title": "100% Qualität",
-            "text": "<p>Dank weichem Silikon<\/p>",
+            "text": "<p>Dank weichem Silikon</p>",
             "link_label": "",
             "link": ""
           }
@@ -76,7 +121,7 @@
           "type": "column",
           "settings": {
             "title": "100% Qualität",
-            "text": "<p>Dank weichem Silikon<\/p>",
+            "text": "<p>Dank weichem Silikon</p>",
             "link_label": "",
             "link": ""
           }
@@ -122,9 +167,5 @@
       }
     }
   },
-  "order": [
-    "main",
-    "multicolumn",
-    "product-recommendations"
-  ]
+  "order": ["main", "main-customized", "multicolumn", "product-recommendations"]
 }
