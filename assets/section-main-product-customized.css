@@ -32,6 +32,7 @@
 
   .product__info-wrapper {
     padding: 0 0 0 5rem;
+    position: relative;
   }
 
   .product__info-wrapper--extra-padding {
@@ -325,6 +326,8 @@ fieldset.product-form__input .form__label {
   box-shadow: 0px 3px 20px #00000029;
   border: 1px solid #d5d5d5;
   border-radius: 5px;
+  position: static;
+  top: auto;
 }
 
 .product__info-container > * + * {
@@ -414,7 +417,8 @@ a.product__text {
 @media screen and (min-width: 750px) {
   .product__info-container {
     min-width: 45rem;
-    max-width: 60rem;
+    position: absolute;
+    top: 7rem;
   }
 
   .product__info-container .price--on-sale .price-item--regular {
