@@ -3,7 +3,7 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#1f47ff",
     "gradient_accent_1": "",
-    "colors_accent_2": "#334fb4",
+    "colors_accent_2": "#5f5f5f",
     "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
@@ -95,6 +95,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/favicon_neoric_32x32_6569524d-f3bc-4a82-ba12-c50837e7a428.webp",
     "currency_code_enabled": false,
     "cart_type": "notification",
     "show_vendor": false,
@@ -106,22 +107,25 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "HEUTE VERSANDKOSTENFREI",
+              "text": "FREE SHIPPING TODAY",
               "text_alignment": "center",
-              "color_scheme": "background-1",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }
         },
-        "block_order": ["announcement-bar-0"],
-        "settings": {}
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify://shop_images/logo.png",
-          "logo_width": 100,
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_width": 130,
           "logo_position": "top-left",
           "menu": "navigation-bar",
           "menu_type_desktop": "dropdown",
@@ -154,11 +158,15 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           }
         },
-        "block_order": ["footer-0", "footer-1", "footer-2"],
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
@@ -187,12 +195,15 @@
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "14288002729265275678": {
-        "type": "shopify://apps/go-product-page-gallery-zoom/blocks/app-embed/00e2bd89-9dbb-4f36-8a7f-03768835bc78",
+        "type": "shopify:\/\/apps\/go-product-page-gallery-zoom\/blocks\/app-embed\/00e2bd89-9dbb-4f36-8a7f-03768835bc78",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       }
     }
   },
@@ -333,8 +344,11 @@
               }
             }
           },
-          "block_order": ["announcement-bar-0"],
-          "settings": {}
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
         },
         "header": {
           "type": "header",
@@ -374,11 +388,15 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
               }
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2"],
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
           "settings": {
             "color_scheme": "background-1",
             "newsletter_enable": true,
