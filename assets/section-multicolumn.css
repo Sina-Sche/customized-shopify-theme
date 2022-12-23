@@ -243,8 +243,23 @@
   display: flex;
 }
 
+.multicolumn-card-with-icon > svg {
+  height: 57px;
+  width: 57px;
+}
+.multicolumn-card-with-icon h3 {
+  font-weight: 600;
+}
+.multicolumn-card-with-icon .rte {
+  margin-top: 0.5rem;
+}
+
 @media screen and (max-width: 990px) {
   .multicolumn-card__info {
     margin-left: 2.5rem;
+  }
+  .multicolumn-card-with-icon > svg {
+    height: 48px;
+    width: 48px;
   }
 }
